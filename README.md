@@ -80,14 +80,23 @@ This project presents an **automated fault-detection framework** that combines *
 
 ## 📊 Results
 
-> _Add your key results here — for example:_
-> - Classification accuracy: **XX%**
-> - Confusion matrix and training curves in [`/results`](results/)
-> - Comparison against baseline method
 
-*(Placeholder — replace with your actual thesis results and figures.)*
+- **Classification accuracy:** __%
+- **Precision / Recall:** __ / __
+- **Fault types detected:** shading, soiling, hotspot, cracked cell
+- The proposed hybrid wavelet + deep learning model outperformed the conventional threshold-based baseline.
 
----
+### Confusion Matrix
+
+
+![Confusion Matrix](results/confusion_matrix.png)
+
+
+
+### Training & Validation Accuracy
+
+
+![Accuracy Curve](results/accuracy_curve.png)
 
 ## 🚀 How to Use
 
