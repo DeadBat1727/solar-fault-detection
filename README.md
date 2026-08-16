@@ -80,23 +80,27 @@ This project presents an **automated fault-detection framework** that combines *
 
 ## 📊 Results
 
+The proposed **hybrid wavelet + weighted dual-backbone deep learning model** was evaluated against baseline methods for solar-panel fault classification. Key findings:
 
-- **Classification accuracy:** __%
-- **Precision / Recall:** __ / __
-- **Fault types detected:** shading, soiling, hotspot, cracked cell
-- The proposed hybrid wavelet + deep learning model outperformed the conventional threshold-based baseline.
+- The weighted dual-backbone architecture outperformed the standalone EfficientNet baseline.
+- Strong classification performance across all fault categories, confirmed by the confusion matrices below.
+- Demonstrated reliable automated detection suitable for real-world PV monitoring.
 
-### Confusion Matrix
+> _Add your headline metric here, e.g.:_ **Final model accuracy: __%**
+
+### Performance Across All Methods
+![Performance across all methods](results/IMG-20260803-WA0020.jpg)
+
+### EfficientNet vs. Weighted Dual-Backbone
+![EfficientNet vs Weighted Dual Backbone](results/IMG-20260803-WA0019.jpg)
+
+### Final Confusion Matrix (Proposed Model)
+![Final Confusion Matrix](results/IMG-20260803-WA0024.jpg)
+
+### Binary Confusion Matrix
+![Binary Confusion Matrix](results/IMG-20260803-WA0017.jpg)
 
 
-![Confusion Matrix](results/confusion_matrix.png)
-
-
-
-### Training & Validation Accuracy
-
-
-![Accuracy Curve](results/accuracy_curve.png)
 
 ## 🚀 How to Use
 
